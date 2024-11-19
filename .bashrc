@@ -7,10 +7,10 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
+PS1='[\u@ \W]\$ '
 
 # dotfiles git alias
-alias dotfiles='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # persist wpg theme since kitty doesnt use xresources
 (cat $HOME/.config/wpg/sequences &)
